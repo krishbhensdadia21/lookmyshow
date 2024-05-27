@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#dtemp {
+    display: flex;
+}
+
+#dheader {
+    width: 100%;
+    padding: 10px;
+}
+
+#dnav {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#dnav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+#dsearch {
+    width: 100%;
+    text-align: center;
+}
+
+#dsearch input {
+    width: 300px;
+    margin-right: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+#dcontent {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#movie-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.movie-card:hover {
+    transform: translateY(-10px);
+}
+
+.movie-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movie-info {
+    margin-top: 15px;
+}
+
+.movie-info h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.movie-info p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#dhome{
+    display: flex;
+    justify-content: space-between;
+    height:500px;
+}
+
+#dimg{
+    width:650px;
+    height:625px;
+}
+
+#darrival{
+    width:600px;
+    border-style: none;
+}
+
+
+h4{
+    font-size: 30px;
+    text-decoration:solid;
+    font-family: cursive;
+}
+
+h6{
+    font-size: xx-large;
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+}
+
+#dlogin{
+    height: 400px;
+    width: 480px;
+    border-style:double;
+    border-color: #000000;
+}
+
+#demail{
+    outline: none;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    font-size: x-large;
+    color: #4B0082;
+}
+
+#dpwd{
+    outline: none;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    font-size: x-large;
+    color: #4B0082;
+}
